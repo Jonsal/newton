@@ -24,7 +24,7 @@ public class JavaApplication1 {
     }
     
     public static void printHelloWorldToScreen(String myStr) {
-        System.out.print("Hello " + myStr + "\n");
+        System.out.print("Change this to Github!\nHello " + myStr + "\n");
     }
     
     public String ReadLine(){
