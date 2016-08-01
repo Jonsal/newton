@@ -21,6 +21,7 @@ public class JavaApplication1 {
         JavaApplication1 plutt = new JavaApplication1();
         String test = plutt.ReadLine();
         printHelloWorldToScreen(test);
+        System.out.print("\n" + plutt.Add(3, 4) + "\n\n");
     }
     
     public static void printHelloWorldToScreen(String myStr) {
@@ -31,6 +32,10 @@ public class JavaApplication1 {
         Scanner sc = new Scanner(System.in);
         String plupp = sc.nextLine();
         return plupp;
+    }
+    
+    public int Add(int x, int y){
+        return x + y;
     }
     
 }
