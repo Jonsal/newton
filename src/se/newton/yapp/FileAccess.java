@@ -1,9 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package se.newton.yapp;
+
 
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
@@ -18,18 +15,19 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-/**
- *
- * @author jonas
- */
+
 public class FileAccess { 
+    
+        private static final Logger LOG = LogManager.getLogger(FileAccess.class);
+    
         public static void main(String[] args) {
-              private static final Logger LOG = LogManager.getLogger(FileAccess.class);
+              
+        
  
         LOG.error("testing ERROR level");
-//        writeFile();
+        writeFile();
 //        readFile();
-        readTestFileAndPopulateList();
+        //readTestFileAndPopulateList();
     }
     
     
@@ -45,8 +43,7 @@ public class FileAccess {
                 new FileWriter(fileName);
 
             // Always wrap FileWriter in BufferedWriter.
-            BufferedWriter bufferedWriter =
-                new BufferedWriter(fileWriter);
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
             bufferedWriter.write("Hello there,");
             bufferedWriter.write(" here is some text.");
@@ -147,11 +144,17 @@ public class FileAccess {
         }
     }
 
+//    private static void printList(List<String> myList) {
+//        // loppar igenom och skriver ut listan
+//        System.out.println("==> Skriver ut listan!.");
+//        for (int i = 0; i < myList.size(); i++) {
+//            System.out.println(myList.get(i));
+//        }
+//    }
+    
     private static void printList(List<String> myList) {
-        // loppar igenom och skriver ut listan
-        System.out.println("==> Skriver ut listan!.");
-        for (int i = 0; i < myList.size(); i++) {
-            System.out.println(myList.get(i));
+        for(String element : myList){
+            System.out.println(element);
         }
     }
 }

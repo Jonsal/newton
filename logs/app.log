@@ -1,1 +1,14 @@
 2016-59-04 06:59:02.160 [main] ERROR se.newton.yapp.Log4j2Tester - testing ERROR level
+2016-21-01 18:21:39.445 [main] ERROR se.newton.yapp.FileAccess - testing ERROR level
+2016-03-02 07:03:14.244 [main] ERROR se.newton.yapp.FileAccess - testing ERROR level
+2016-09-02 09:09:26.539 [main] ERROR se.newton.yapp.FileAccess - testing ERROR level
+2016-13-02 10:13:30.910 [main] ERROR se.newton.yapp.Log4j2Tester - TESTAR ERROR
+09-09-02 10:15:24.348 [main] ERROR se.newton.yapp.Log4j2Tester - TESTAR ERROR
+2016-09-02 10:16:00.673 [main] ERROR se.newton.yapp.Log4j2Tester - TESTAR ERROR
+2016-09-02 10:16:05.183 [main] ERROR se.newton.yapp.Log4j2Tester - TESTAR ERROR
+2016-09-02 11:20:02.374 [main] ERROR se.newton.yapp.Log4j2Tester - ÄNTLIGEN FREDAG!!!
+2016-09-02 11:48:41.697 [main] ERROR se.newton.yapp.Log4j2Tester - ÄNTLIGEN FREDAG!!!
+2016-09-02 11:48:46.678 [main] ERROR se.newton.yapp.Log4j2Tester - ÄNTLIGEN FREDAG!!!
+2016-09-02 13:40:11.458 [main] ERROR se.newton.yapp.Log4j2Tester - ÄNTLIGEN FREDAG!!!
+2016-09-02 14:00:56.437 [main] ERROR se.newton.yapp.Log4j2Tester - ÄNTLIGEN FREDAG!!!
+2016-09-02 14:37:09.246 [main] INFO  se.newton.yapp.Log4j2Tester - ÄNTLIGEN FREDAG!!!
